@@ -1,15 +1,16 @@
 /*
 Color Palette: 
-background color: #3A3845
-font color:  #F7CCAC 
-secondary color: #C69B7B  
-tertiary color: #826F66
+background color: #3A3845 / 937DC2
+font color:  #F7CCAC / C689C6
+secondary color: #C69B7B / FFABE1
+tertiary color: #826F66 / FFE6F7
 */
 
 /* CSS syntax notes:
     selector{proprty: value;}
 */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
 
 html {
     font-size: 62.5%;
@@ -28,9 +29,9 @@ header {
     font-size: 1.1rem;
 }
 body {
-    background-color: #3A3845;
+    background-color: #937DC2;
     color: #F7CCAC;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Bungee Spice', cursive;
     margin: 0;
 }
 
@@ -46,6 +47,7 @@ cite {
     font-size: 2rem;
 }
 
+
 .imageCard img {
     width: 100%;
     height: auto;
@@ -54,7 +56,7 @@ cite {
 }
 
 .cardText {
-    color: #C69B7B;
+    color: #FFABE1;
     text-align: center;
     padding: 2rem;
     border-radius: 30px;
@@ -64,7 +66,11 @@ cite {
 
 .imageCard a {
     text-decoration: none;
-    color: #826F66;
+    color: #FFE6F7;
+}
+
+img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 #87A2FB;
 }
 
 @media (min-width:768px) {
